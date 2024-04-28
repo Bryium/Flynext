@@ -204,22 +204,47 @@ main {
 
 /* Charter Section */
 .charter {
+  position: relative;
   display: flex;
   box-sizing: border-box;
   justify-content: center;
-  align-items: center;
+  align-items: row;
   gap: 40px;
   width: 800px;
   margin-top: 80px;
-  margin-left: 400px;
+  margin-left: 450px;
 }
 
 .charter-private {
   background-color: #3d3d3d;
-  width: 536px;
-  padding: 30px;
+  height: 100%;
+  width: 636px;
+  place-content: center;
 }
 
 .charter-jet img {
   width: 536px;
+}
+.charter-text {
+  color: #fff;
+  font-style: mulish, Sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  bottom: 15px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.charter-text h2 {
+  font-size: 16px;
+}
+
+.charter-text p {
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.charter-logo {
+  margin-top: 25px;
 }
