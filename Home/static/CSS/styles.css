@@ -248,3 +248,37 @@ main {
 .charter-logo {
   margin-top: 25px;
 }
+
+.charter-public {
+  background-color: #3d3d3d;
+  height: 100%;
+  width: 636px;
+  place-content: center;
+}
+
+.charter-jetwing img {
+  width: 536px;
+}
+
+.charter-description {
+  color: #fff;
+  font-style: mulish, Sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  bottom: 15px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.charter-description h3 {
+  font-size: 20px;
+}
+
+.charter-description h4 {
+  font-size: 30px;
+}
+
+.charter-description p {
+  font-size: 16px;
+}
