@@ -208,7 +208,7 @@ main {
   display: flex;
   box-sizing: border-box;
   justify-content: center;
-  align-items: row;
+  align-items: center;
   gap: 40px;
   width: 800px;
   margin-top: 80px;
@@ -281,4 +281,15 @@ main {
 
 .charter-description p {
   font-size: 16px;
+}
+
+.super {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  padding: 30px 200px;
+  background-color: #19232d;
+  margin-top: 80px;
+  color: white;
+  width: 800px;
 }
