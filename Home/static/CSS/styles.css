@@ -224,6 +224,7 @@ main {
 
 .charter-jet img {
   width: 536px;
+  object-fit: cover;
 }
 .charter-text {
   color: #fff;
@@ -232,7 +233,7 @@ main {
   display: inline-block;
   position: absolute;
   bottom: 15px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   text-align: center;
 }
 
@@ -258,6 +259,7 @@ main {
 
 .charter-jetwing img {
   width: 536px;
+  object-fit: cover;
 }
 
 .charter-description {
@@ -285,11 +287,8 @@ main {
 
 .super {
   display: flex;
-  flex-direction: row;
-  place-items: center;
-  padding: 30px 200px;
-  background-color: #19232d;
-  margin-top: 80px;
-  color: white;
+  align-items: center;
   width: 800px;
+  margin-top: 80px;
+  background-color: #19232d;
 }
